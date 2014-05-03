@@ -1,6 +1,6 @@
 ## Description
 
-In my work I have to use BASE-64 encoders/decoders almost everytime. There are very important to me and definitely need to be 100% accurate. But sometimes I got a strange errors in code just because of mistakes in BASE-64 realizations. Finally I got a time (and necessity!) for implementing my own simple BASE-64 coder/decoder. The code could be compiled into a single *.exe file.
+In my work I have to use BASE-64 encoders/decoders almost everytime. There are very important to me and definitely need to be 100% accurate. But sometimes I got a strange errors in code just because of mistakes in BASE-64 realizations. Finally I got a time (and necessity!) for implementing my own simple BASE-64 coder/decoder. The code could be compiled into a single *.exe file (BTW my code is "OS-independant").
 
 ## Usage
 ```
