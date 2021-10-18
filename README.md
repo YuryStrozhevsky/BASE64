@@ -3,14 +3,19 @@
 In my work I have to use BASE-64 encoders/decoders almost everytime. There are very important to me and definitely need to be 100% accurate. But sometimes I got a strange errors in code just because of mistakes in BASE-64 realizations. Finally I got a time (and necessity!) for implementing my own simple BASE-64 coder/decoder. The code could be compiled into a single *.exe file (BTW my code is "OS-independant").
 
 ## Usage
+
+All the options with "u" are for BASE-64 URL encoding/decoding.
 ```
  BASE-64 coder/decoder, v1.0
  (c) 2014, Yury Strozhevsky, www.strozhevsky.com
  
  Usage:;
  	b64.exe -e <file to encode> <output file>
+ 	b64.exe -eu <file to encode> <output file>
  	b64.exe -ed <file to encode> <output file with 64-length strings>
+ 	b64.exe -eud <file to encode> <output file with 64-length strings>
  	b64.exe -d <file to decode> <output file>
+ 	b64.exe -du <file to decode> <output file>
 ```
 
 ## License
